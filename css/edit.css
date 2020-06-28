@@ -1,0 +1,94 @@
+
+.menu-row {
+	text-align-last: center;
+}
+
+.menu-img {
+	border-radius: 100%;
+	height: 213px;
+	width: 235px;
+}
+
+.gif-wallpaper {
+	height: auto;
+}
+
+@media (min-width: 768px) {
+	.gif-wallpaper {
+		height: 100vh;
+	}
+	.frame {
+		/*width: 535px !important;*/
+	}
+
+}
+
+.contact {
+	background-repeat: inherit !important;
+}
+
+.contact-p {
+	color: white;
+}
+
+
+@media (max-width: 573px) {
+	.frame {
+		width: 460px !important;
+	}
+}
+
+@media (min-width: 574px) {
+	.frame {
+		width: 510px !important;
+	}
+}
+
+@media (min-width: 701px) {
+	.frame {
+		width: 560px !important;
+	}
+}
+
+.btn-dark-f {
+	color: #fff;
+	background-color: #343a40;
+	border-color: #343a40;
+}
+
+.btn-dark-f:hover {
+	color: #fff;
+	background-color: #3b5998;
+	border-color: #375186
+}
+
+.btn-dark-w {
+	color: #fff;
+	background-color: #343a40;
+	border-color: #343a40;
+}
+
+.btn-dark-w:hover {
+	color: #fff;
+	background-color: #25d366;
+	border-color: #2bc364
+}
+
+.btn-dark-i {
+	color: #fff;
+	background-color: #343a40;
+	border-color: #343a40;
+}
+
+.btn-dark-i:hover {
+	color: #fff;
+	background-image: url("../assets/img/instagram.jpg");
+	border-color: #bd3a53;
+	background-position: center; 
+	background-repeat: no-repeat; 
+	background-size: cover; 
+}
+
+.div-font {
+	font-size: 13px;
+}
